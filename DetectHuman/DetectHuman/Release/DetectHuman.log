@@ -1,0 +1,33 @@
+﻿Build started 26/12/2016 10:19:22 PM.
+     1>Project "E:\HanhNV\Libs\PJ\DetectHuman\DetectHuman\DetectHuman.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\HanhNV\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ILib\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\DetectHuman.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DetectHumanDlg.cpp
+         DetectHumanDlg.cpp
+     1>e:\hanhnv\libs\pj\detecthuman\detecthuman\include.h(1): warning C4005: '_AFXDLL' : macro redefinition
+                 command-line arguments :  see previous definition of '_AFXDLL'
+     1>DetectHumanDlg.cpp(223): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\HanhNV\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>DetectHumanDlg.cpp(253): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>DetectHumanDlg.cpp(260): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>DetectHumanDlg.cpp(281): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\HanhNV\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>DetectHumanDlg.cpp(483): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\HanhNV\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+       Link:
+         E:\HanhNV\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\HanhNV\Libs\PJ\DetectHuman\Release\DetectHuman.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:Lib\lib opencv_core246.lib opencv_flann246.lib opencv_highgui246.lib opencv_imgproc246.lib opencv_photo246.lib opencv_ml246.lib opencv_contrib246.lib opencv_video246.lib opencv_features2d246.lib opencv_objdetect246.lib opencv_calib3d246.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"E:\HanhNV\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\HanhNV\Libs\PJ\DetectHuman\Release\DetectHuman.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\HanhNV\Libs\PJ\DetectHuman\Release\DetectHuman.lib" /MACHINE:X86 /SAFESEH Release\DetectHuman.res
+         Release\DetectHuman.obj
+         Release\DetectHumanDlg.obj
+         Release\MInputFrame.obj
+         Release\MPeopleCounting.obj
+         Release\MTracking.obj
+         Release\MyVideo.obj
+         Release\SettingDialog.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         DetectHuman.vcxproj -> E:\HanhNV\Libs\PJ\DetectHuman\Release\DetectHuman.exe
+     1>Done Building Project "E:\HanhNV\Libs\PJ\DetectHuman\DetectHuman\DetectHuman.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.08
